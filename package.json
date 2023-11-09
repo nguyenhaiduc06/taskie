@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "taskie",
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "frontend": "yarn workspace frontend dev",
+    "backend": "yarn workspace backend start",
+    "dev": "concurrently --kill-others-on-fail \"yarn backend\"  \"yarn frontend\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
