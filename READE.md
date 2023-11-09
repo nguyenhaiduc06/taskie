@@ -24,3 +24,8 @@ To run frontend:
 ```bash
 yarn frontend
 ```
+
+## Deployment
+Frontend is deployed at [](https://taskie-frontend.vercel.app)
+Backend is deployed at [](https://taskie-v9gb.onrender.com)
+CD has been setup so that each commit or merge to the `main` branch will trigger a job at the appropriate platform.
